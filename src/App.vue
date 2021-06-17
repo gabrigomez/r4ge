@@ -1,18 +1,20 @@
 <template>
-  <p>
-    {{ music[0] }}
-  </p>
+  <div class="app">
+    <h1>RAGE AGAINST THE MACHINE</h1>
+    <MusicList :musics="musics" />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, reactive, ref, toRefs } from "vue";
 import Music from "./types/Music";
+import MusicList from "./components/MusicList.vue";
 
 export default defineComponent({
   name: "App",
-  components: {},
+  components: { MusicList },
   setup() {
-    const music = ref<Music[]>([
+    const musics = ref<Music[]>([
       {
         title: "Freedom",
         album: "Rage Against The Machine",
@@ -33,7 +35,7 @@ export default defineComponent({
       },
     ]);
 
-    return { music };
+    return { musics };
   },
   methods: {},
 });
