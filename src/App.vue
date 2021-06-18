@@ -8,7 +8,7 @@
         <button @click="handleClick('year')">Order by year</button>
       </div>
     </header>
-    <MusicList :musics="musics" />
+    <MusicList :musics="musics" :order="order" />
   </div>
 </template>
 
@@ -41,6 +41,12 @@ export default defineComponent({
         year: 1991,
         id: "3",
       },
+      {
+        title: "Tire Me",
+        album: "Evil Empire",
+        year: 1996,
+        id: "4",
+      },
     ]);
 
     const order = ref<OrderTerm>("title");
@@ -49,7 +55,7 @@ export default defineComponent({
       order.value = term;
     };
 
-    return { musics, handleClick };
+    return { musics, handleClick, order };
   },
 });
 </script>
