@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-
-body {
-    font-family: 'Staatliches', cursive;
-    background-color: #D5DBB3;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

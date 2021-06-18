@@ -1,6 +1,6 @@
 <template>
-  <div class="app">
-    <h1>RAGE AGAINST THE MACHINE</h1>
+  <div class="text-lg font-body">
+    <h1 class="text-3xl">RAGE AGAINST THE MACHINE</h1>
     <header>
       <div>
         <button @click="handleClick('title')">Order by title</button>
