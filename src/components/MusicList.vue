@@ -1,13 +1,13 @@
 <template>
   <div>
     <p>Ordered by {{ order }}</p>
-    <ul>
+    <transition-group name="list" tag="ul">
       <li v-for="music in orderedMusics" :key="music.id">
         <h2>{{ music.title }}</h2>
         <h4>From: {{ music.album }}</h4>
         <h4>{{ music.year }}</h4>
       </li>
-    </ul>
+    </transition-group>
   </div>
 </template>
 
@@ -39,4 +39,7 @@ export default defineComponent({
 </script>
 
 <style>
+.list-move {
+  transition: all 1s;
+}
 </style>
