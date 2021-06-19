@@ -4,8 +4,18 @@
     <transition-group name="list" tag="ul">
       <li class="card" v-for="music in orderedMusics" :key="music.id">
         <h4 class="text-2xl m-2">{{ music.title }}</h4>
-        <p>From: {{ music.album }}</p>
-        <p>{{ music.year }}</p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg"
+          class="
+            h-40
+            w-40
+            border-2 border-gray-400
+            hover:shadow-lg
+            cursor-pointer
+          "
+        />
+        <p class="text-sm m-2">From: {{ music.album }}</p>
+        <p class="text-sm m-2">{{ music.year }}</p>
       </li>
     </transition-group>
   </div>
