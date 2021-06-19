@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>Ordered by {{ order }}</p>
+    <p class="flex justify-center text-lg mb-10">Ordered by {{ order }}</p>
     <transition-group name="list" tag="ul">
-      <li v-for="music in orderedMusics" :key="music.id">
-        <h2>{{ music.title }}</h2>
-        <h4>From: {{ music.album }}</h4>
-        <h4>{{ music.year }}</h4>
+      <li class="card" v-for="music in orderedMusics" :key="music.id">
+        <h4 class="text-2xl m-2">{{ music.title }}</h4>
+        <p>From: {{ music.album }}</p>
+        <p>{{ music.year }}</p>
       </li>
     </transition-group>
   </div>
