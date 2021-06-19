@@ -5,14 +5,8 @@
       <li class="card" v-for="music in orderedMusics" :key="music.id">
         <h4 class="text-2xl m-2">{{ music.title }}</h4>
         <img
-          src="https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg"
-          class="
-            h-40
-            w-40
-            border-2 border-gray-400
-            hover:shadow-lg
-            cursor-pointer
-          "
+          :src="music.cover"
+          class="h-40 w-40 border-2 border-black hover:shadow-lg cursor-pointer"
         />
         <p class="text-sm m-2">From: {{ music.album }}</p>
         <p class="text-sm m-2">{{ music.year }}</p>
@@ -24,13 +18,13 @@
 <script lang="ts">
 import OrderTerm from "@/types/OrderTerm";
 import { computed, defineComponent, PropType } from "vue";
-import Music from "../types/Music";
+import Musics from "../types/Musics";
 
 export default defineComponent({
   props: {
     musics: {
       required: true,
-      type: Array as PropType<Music[]>,
+      type: Array as PropType<Musics[]>,
     },
     order: {
       required: true,
@@ -39,7 +33,7 @@ export default defineComponent({
   },
   setup(props) {
     const orderedMusics = computed(() => {
-      return [...props.musics].sort((a: Music, b: Music) => {
+      return [...props.musics].sort((a: Musics, b: Musics) => {
         return a[props.order] > b[props.order] ? 1 : -1;
       });
     });

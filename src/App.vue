@@ -41,7 +41,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref, toRefs } from "vue";
-import Music from "./types/Music";
+import Musics from "./types/Musics";
 import OrderTerm from "./types/OrderTerm";
 import MusicList from "./components/MusicList.vue";
 
@@ -49,30 +49,38 @@ export default defineComponent({
   name: "App",
   components: { MusicList },
   setup() {
-    const musics = ref<Music[]>([
+    const musics = ref<Musics[]>([
       {
         title: "Freedom",
         album: "Rage Against The Machine",
         year: 1991,
         id: "1",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
       },
       {
         title: "Killing in the name",
         album: "Rage Against The Machine",
         year: 1991,
         id: "2",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
       },
       {
         title: "Bombtrack",
         album: "Rage Against The Machine",
         year: 1991,
         id: "3",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
       },
       {
         title: "Tire Me",
         album: "Evil Empire",
         year: 1996,
         id: "4",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
       },
     ]);
 
