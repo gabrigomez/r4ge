@@ -5,3 +5,7 @@ body {
     font-family: 'Staatliches', cursive;
     background-color: #D5DBB3;
 }
+
+.btn {
+    @apply font-bold rounded bg-white text-red-600 m-2 hover:bg-gray-300
+}

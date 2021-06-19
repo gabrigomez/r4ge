@@ -30,10 +30,10 @@
       </div>
       <p class="text-lg flex justify-center">Music bio</p>
     </header>
-    <div>
-      <button @click="handleClick('title')">Order by title</button>
-      <button @click="handleClick('album')">Order by album</button>
-      <button @click="handleClick('year')">Order by year</button>
+    <div class="flex justify-center m-10">
+      <button class="btn" @click="handleClick('title')">Order by title</button>
+      <button class="btn" @click="handleClick('album')">Order by album</button>
+      <button class="btn" @click="handleClick('year')">Order by year</button>
     </div>
     <MusicList :musics="musics" :order="order" />
   </div>
