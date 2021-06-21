@@ -82,6 +82,86 @@ export default defineComponent({
         cover:
           "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
       },
+      {
+        title: "Vietnow",
+        album: "Evil Empire",
+        year: 1996,
+        id: "5",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "People of the sun",
+        album: "Evil Empire",
+        year: 1996,
+        id: "6",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Bulls on parade",
+        album: "Evil Empire",
+        year: 1996,
+        id: "7",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Revolver",
+        album: "Evil Empire",
+        year: 1996,
+        id: "8",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Snakecharmer",
+        album: "Evil Empire",
+        year: 1996,
+        id: "9",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Down rodeo",
+        album: "Evil Empire",
+        year: 1996,
+        id: "10",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Without a face",
+        album: "Evil Empire",
+        year: 1996,
+        id: "11",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Wind below",
+        album: "Evil Empire",
+        year: 1996,
+        id: "12",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Roll right",
+        album: "Evil Empire",
+        year: 1996,
+        id: "13",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
+      {
+        title: "Year of tha boomerang",
+        album: "Evil Empire",
+        year: 1996,
+        id: "14",
+        cover:
+          "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
+      },
     ]);
 
     const order = ref<OrderTerm>("title");
