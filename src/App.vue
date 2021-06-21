@@ -162,6 +162,70 @@ export default defineComponent({
         cover:
           "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/03/Rage-Against-the-Machine-Evil-Empire.jpg",
       },
+      {
+        title: "Take the power back",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "15",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Bullet in the head",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "16",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Settle for nothing",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "17",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Know your enemy",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "18",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Wake up",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "19",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Fistfull of steel",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "20",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Township Rebelion",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "19",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
+      {
+        title: "Freedom",
+        album: "Rage Against The Machine",
+        year: 1991,
+        id: "20",
+        cover:
+          "https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg",
+      },
     ]);
 
     const order = ref<OrderTerm>("title");
