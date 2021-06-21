@@ -1,7 +1,11 @@
 <template>
+  <p class="flex justify-center text-lg mb-10">Ordered by {{ order }}</p>
   <div>
-    <p class="flex justify-center text-lg mb-10">Ordered by {{ order }}</p>
-    <transition-group name="list" tag="ul">
+    <transition-group
+      name="list"
+      tag="ul"
+      class="flex flex-wrap justify-center"
+    >
       <li class="card" v-for="music in orderedMusics" :key="music.id">
         <h4 class="text-2xl m-2">{{ music.title }}</h4>
         <img

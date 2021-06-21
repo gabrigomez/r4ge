@@ -11,5 +11,5 @@ body {
 }
 
 .card {
-    @apply flex flex-col items-center mt-5 bg-gray-100 shadow-sm hover:shadow-md 
+    @apply flex flex-col items-center mt-5 mr-2 bg-gray-100 shadow-sm hover:shadow-md w-60 h-72
 }
